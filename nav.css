@@ -1,0 +1,49 @@
+.container-fluid{
+    width:;
+    height: 60px;
+}
+
+.badge-border {
+    border: 1px solid black;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .dropdown {
+    border-bottom: 1px solid black;
+  }
+  .btn-outline-primary{
+    font-weight: bold;
+    margin: px;
+    padding: 10px;
+  }
+  .carousel-caption{
+    text-align: left;
+    top: 150px;
+    font-size: 20px;
+    width: 550px;
+  }
+  .carousel-caption h5{
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  }
+  .carousel-caption p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+  }
+  .btn-lg{
+  background-color: #ff3514;
+  color: white;
+  font-weight: bold;
+  border-radius: none;
+  }
+  .btn-lg:hover{
+    background-color:white;
+    color: #ff3514;
+    font-weight: bold;
+    border-radius: none;
+    }
