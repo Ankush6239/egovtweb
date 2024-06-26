@@ -1,3 +1,4 @@
+import Body from "./components/Body";
 import Header from "./components/Header";
 import Slidr from "./components/Slidr";
 import  "./components/nav.css";
@@ -20,6 +21,7 @@ function App() {
     Primary="Report An Issues"
     />
    <Slidr/>
+   <Body/>
     </>
   );
 }
