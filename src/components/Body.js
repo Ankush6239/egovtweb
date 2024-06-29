@@ -1,4 +1,5 @@
 import React from "react";
+import Homecard from "./Homecard";
 
 function Body() {
   return (
@@ -110,6 +111,65 @@ function Body() {
           <div className="col-xl-6  justify-content-end" id="xl6">
             <div className="btn btn-primary " id="btn2">
               Explore Services
+            </div>
+          </div>
+        </div>
+        <div className="row mt-5 ">
+          <div className="col-sm-4">
+            {" "}
+            <Homecard
+              src="https://htmlbeans.com/html/egovt/images/img04.jpg"
+              p="Service Departments "
+              p2="Learn More"
+            />
+          </div>
+          <div className="col-sm-4">
+            {" "}
+            <Homecard
+              src="https://htmlbeans.com/html/egovt/images/img05.jpg"
+              p="City Visitors Guide  "
+              p2="Learn More"
+            />
+          </div>
+          <div className="col-sm-4">
+            {" "}
+            <Homecard
+              src="https://htmlbeans.com/html/egovt/images/img06.jpg"
+              p="
+Administrations  "
+              p2="Learn More"
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col -sm-6">
+            <h2 id="heading">Meet Ideological leader for youth generation </h2>
+            <br />
+            <p id="para2">
+              {" "}
+              Mayor Carnee Simmons is committed to solving problems for town
+              people across the state under her leadership. Expanding access to
+              affordable healthcare, improving skills, respecting working
+              families as the City’s 45th mayor. Mayor Carnee was won in the
+              serve a sixth term on Octorber 7, 2018.{" "}
+            </p>
+            <p id="para">
+    "Stand at the top of a cliff and jump off and build your wings on the way down." <br />
+    Carnee Simmons, Mayor
+            </p>
+            <p><img src="https://img.icons8.com/?size=100&id=25603&format=png&color=000000" alt="" />
+Video Intro About Our Municipal
+</p>
+          </div>
+          <div className="col -sm-6">
+            <div className="row">
+            <div className="col-sm-6" id="pic6">
+                <img src="https://htmlbeans.com/html/egovt/images/img07.jpg" alt="" />
+              </div>
+              <div className="col-sm-6" id="pic7">
+                <img src="https://htmlbeans.com/html/egovt/images/img08.jpg" alt="" />
+              </div>
+          
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import Body from "./components/Body";
 import Header from "./components/Header";
+import Homecard from "./components/Homecard";
 import Slidr from "./components/Slidr";
 import  "./components/nav.css";
 function App() {
@@ -21,7 +22,9 @@ function App() {
     Primary="Report An Issues"
     />
    <Slidr/>
-   <Body/>
+   <Body
+   />
+   
     </>
   );
 }
