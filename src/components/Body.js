@@ -1,6 +1,7 @@
 import React from "react";
 import Homecard from "./Homecard";
 
+import TextCounter from "./TextCounter"
 function Body() {
   return (
     <div>
@@ -154,26 +155,74 @@ Administrations  "
               serve a sixth term on Octorber 7, 2018.{" "}
             </p>
             <p id="para">
-    "Stand at the top of a cliff and jump off and build your wings on the way down." <br />
-    Carnee Simmons, Mayor
+              "Stand at the top of a cliff and jump off and build your wings on
+              the way down." <br />
+              Carnee Simmons, Mayor
             </p>
-            <p><img src="https://img.icons8.com/?size=100&id=25603&format=png&color=000000" alt="" />
-Video Intro About Our Municipal
-</p>
+            <p>
+              <img
+                src="https://img.icons8.com/?size=100&id=25603&format=png&color=000000"
+                alt=""
+              />
+              Video Intro About Our Municipal
+            </p>
           </div>
           <div className="col -sm-6">
             <div className="row">
-            <div className="col-sm-6" id="pic6">
-                <img src="https://htmlbeans.com/html/egovt/images/img07.jpg" alt="" />
+              <div className="col-sm-6" id="pic6">
+                <img
+                  src="https://htmlbeans.com/html/egovt/images/img07.jpg"
+                  alt=""
+                />
               </div>
               <div className="col-sm-6" id="pic7">
-                <img src="https://htmlbeans.com/html/egovt/images/img08.jpg" alt="" />
+                <img
+                  src="https://htmlbeans.com/html/egovt/images/img08.jpg"
+                  alt=""
+                />
               </div>
-          
             </div>
           </div>
         </div>
       </div>
+      <div className=" conatiner-fluid " style={{ backgroundColor: "#202b5d" }}>
+          <div className="container p-5" >
+            <div className="row">
+            <div className="col-sm-3" id="col12">
+              <TextCounter
+              src2="https://img.icons8.com/?size=100&id=916&format=png&color=000000"
+              heading="k"
+              p3="Total People lived
+in our city"
+              />
+            </div>
+            <div className="col-sm-3" id="col12">
+              <TextCounter
+              src2="https://img.icons8.com/?size=100&id=JtdN7f4ZTV61&format=png&color=000000"
+              heading="k"
+              p3="Square kilometres
+region covers "
+              />
+            </div>
+            <div className="col-sm-3" id="col12">
+              <TextCounter
+              src2="https://img.icons8.com/?size=100&id=6hrAIevrftGp&format=png&color=000000"
+              heading="k"
+              p3="Private & domestic
+garden land "
+              />
+            </div>
+            <div className="col-sm-3" id="col12">
+              <TextCounter
+              src2="https://img.icons8.com/?size=100&id=5473&format=png&color=000000"
+              heading="k"
+              p3="Total People lived
+in our city"
+              />
+            </div>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
