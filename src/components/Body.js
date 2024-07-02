@@ -2,6 +2,7 @@ import React from "react";
 import Homecard from "./Homecard";
 
 import TextCounter from "./TextCounter"
+import Eventcard from "./Eventcard";
 function Body() {
   return (
     <div>
@@ -115,16 +116,16 @@ function Body() {
             </div>
           </div>
         </div>
+        <div className="container">
         <div className="row mt-5 ">
-          <div className="col-sm-4">
-            {" "}
+          <div className="col-sm-4" id="pe">
             <Homecard
               src="https://htmlbeans.com/html/egovt/images/img04.jpg"
               p="Service Departments "
               p2="Learn More"
             />
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4" id="pe">
             {" "}
             <Homecard
               src="https://htmlbeans.com/html/egovt/images/img05.jpg"
@@ -132,7 +133,7 @@ function Body() {
               p2="Learn More"
             />
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4" id="pe">
             {" "}
             <Homecard
               src="https://htmlbeans.com/html/egovt/images/img06.jpg"
@@ -141,6 +142,7 @@ Administrations  "
               p2="Learn More"
             />
           </div>
+        </div>
         </div>
         <div className="row">
           <div className="col -sm-6">
@@ -186,43 +188,68 @@ Administrations  "
         </div>
       </div>
       <div className=" conatiner-fluid " style={{ backgroundColor: "#202b5d" }}>
-          <div className="container p-5" >
-            <div className="row">
-            <div className="col-sm-3" id="col12">
-              <TextCounter
-              src2="https://img.icons8.com/?size=100&id=916&format=png&color=000000"
-              heading="k"
-              p3="Total People lived
-in our city"
-              />
-            </div>
-            <div className="col-sm-3" id="col12">
-              <TextCounter
-              src2="https://img.icons8.com/?size=100&id=JtdN7f4ZTV61&format=png&color=000000"
-              heading="k"
-              p3="Square kilometres
+      <div className="container p-5" >
+        <TextCounter
+        src1="https://img.icons8.com/?size=100&id=3728&format=png&color=000000"
+        heading="k"
+        p1="Square kilometres
 region covers "
-              />
-            </div>
-            <div className="col-sm-3" id="col12">
-              <TextCounter
-              src2="https://img.icons8.com/?size=100&id=6hrAIevrftGp&format=png&color=000000"
-              heading="k"
-              p3="Private & domestic
-garden land "
-              />
-            </div>
-            <div className="col-sm-3" id="col12">
-              <TextCounter
-              src2="https://img.icons8.com/?size=100&id=5473&format=png&color=000000"
-              heading="k"
-              p3="Total People lived
-in our city"
-              />
-            </div>
-            </div>
+
+src2="https://img.icons8.com/?size=100&id=JtdN7f4ZTV61&format=png&color=000000"
+heading="k"
+p2="Square kilometres
+region covers "
+
+src3="https://img.icons8.com/?size=100&id=2787&format=png&color=000000"
+heading1="%"
+p3="Square kilometres
+region covers "
+
+src4="https://img.icons8.com/?size=100&id=S1tUpEF7NX5K&format=png&color=000000"
+heading2="th"
+p4="Square kilometres
+region covers "
+        />
           </div>
         </div>
+        <div className="container-fuild">
+        <div className="row">
+            <div className="col-sm-8" id="sm8">
+              <div className="container">
+              <div className="row d-flex justify-content-between p-2">
+                <div className="col-sm-3 ">
+            <h2 className="h31">Upcoming Events </h2>
+            </div>
+            <div className=" col-sm-3">
+                <h2 className="h32 "> See All Events></h2> 
+                </div>
+                </div>
+                </div>
+                <div className="container">
+                <div className="row">
+                <div className="col-sm-4"style={{paddingLeft:"10px"}}>
+                  <Eventcard
+                  title23="Entertainement"
+                  heading2="Organizing City Photography Contest-2022"
+                  location="Mayor Office, Texas city "
+                  imgsrc="https://htmlbeans.com/html/egovt/images/img09.jpg"
+                  />
+                </div>
+                <div className="col-sm-4" id="col4" style={{paddingLeft:"200px"}}>
+                  <Eventcard
+                  title23="Entertainement"
+                  heading2="Cultural Festival & Concert at domanion"
+                  imgsrc="https://htmlbeans.com/html/egovt/images/img10.jpg"
+                  location="32,Quincy Street,Cambridge,MA"
+                  /></div>
+                  </div>
+                  </div>
+            </div>
+            <div className="col-sm-4">
+              <h2></h2>
+            </div>
+          </div>
+          </div>
     </div>
   );
 }

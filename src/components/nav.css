@@ -164,3 +164,46 @@ font-size: 25px;
   text-align: center;
   color: white;
 }
+.h31{
+  font-size: 40px;
+  font-weight: bold;
+  color: #202b5d; 
+}
+.h32{
+  padding-top: 25px;
+font-size: 30px;
+color:#202b5d ;
+}
+#sm8{
+  box-shadow: 0px 4px 8px  10px rgba(0, 0, 0, 0.1);
+}
+.date{
+  position:absolute;
+  top: 10px;
+  left: 0px;
+  color: #ff3514;
+  
+}
+#date2{
+ font-weight: bold;
+ font-size: 40px;
+ box-shadow: 0px 4px 8px  10px rgba(0, 0, 0, 0.1);
+}
+
+#time{
+  text-align: justify;
+  font-size: 17px;
+  color: ;
+  font-weight: bold;
+}
+.col-sm-4{
+  padding-left:200px ;
+}
+#heading45{
+  color: #232e5f;
+  text-align: left;
+  font-weight: bold;
+}
+#pe{
+  padding-left: 0px;
+}

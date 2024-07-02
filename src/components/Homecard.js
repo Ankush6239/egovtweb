@@ -5,7 +5,7 @@ export default function Homecard(props) {
 
   return (
     <div className='container'>
-      <div className="" style={{ width: '25rem' }}>
+      <div className="" style={{ width: '22rem' }}>
         <img src={props.src} className="card-img-top" alt="..." />
       </div>
       <div className="card-body" id="cardbody">
